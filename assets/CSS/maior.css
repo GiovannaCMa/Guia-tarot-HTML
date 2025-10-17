@@ -1,0 +1,412 @@
+:root {
+  --bg: #0f1724;
+  --card: #0b1220;
+  --accent: #cfa34a;
+  --muted: #98a0b3;
+  --glass: rgba(255, 255, 255, 0.03);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(180deg, #071029 0%, #081226 60%);
+  color: #e6eef8;
+  min-height: 100vh;
+}
+
+header {
+  padding: 28px 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.logo img {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+p.lead {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.divider {
+  width: 65%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  margin-top: 6px;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+}
+
+.menu button {
+  background: var(--accent);
+  color: #081226;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu button:hover {
+  background: #e2be67;
+  transform: scale(1.05);
+}
+
+main {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 0 20px 60px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--accent);
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 22px;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 4px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+h4 {
+  font-size: 17px;
+  margin-top: 16px;
+}
+
+p,
+li {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 2fr));
+  gap: 14px;
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.01)
+  );
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.num {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.title {
+  font-weight: 700;
+  margin: 6px 0;
+}
+
+.keywords {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ===== MODAIS UNIFICADOS (com rolagem e responsividade) ===== */
+.modal-backdrop,
+#backdropSimbolo {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 6, 23, 0.6),
+    rgba(2, 6, 23, 0.85)
+  );
+  backdrop-filter: blur(4px);
+  z-index: 100;
+  overflow-y: auto; /* rolagem total */
+  padding: 40px 0;
+}
+
+/* ===== CONTEÚDO DO MODAL ===== */
+.modal {
+  background: var(--card);
+  color: #e6eef8;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  max-width: 820px;
+  width: 90%;
+  padding: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 90vh; /* impede cortar conteúdo */
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+/* ===== ESTILO DA ROLAGEM ===== */
+.modal::-webkit-scrollbar {
+  width: 8px;
+}
+.modal::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 8px;
+}
+.modal::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ===== GRID INTERNO DO MODAL ===== */
+.modal .grid {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .modal .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal img {
+    max-width: 90%;
+    margin: 0 auto 10px;
+  }
+}
+
+/* ===== BOTÕES DO MODAL ===== */
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.modal-buttons button {
+  background: var(--accent);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #081226;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.modal-buttons button:hover {
+  background: #e2be67;
+}
+
+/* ===== META E TEXTO ===== */
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: var(--glass);
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ===== SIMBOLOGIAS ===== */
+.grid-s {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  gap: 14px;
+}
+
+#modalImg-s {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#cards-s .card img {
+  width: 120px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* ===== JORNADA DO LOUCO FLUIDA ===== */
+.jornada-louco {
+  display: flex;
+  flex-wrap: wrap;       /* permite múltiplas etapas por linha */
+  gap: 40px;             /* espaço entre etapas */
+  justify-content: center;
+}
+
+.jornada-louco .etapa {
+  display: flex;
+  flex: 1 1 45%;         /* ocupa até 45% da largura e encolhe se necessário */
+  align-items: center;
+  gap: 20px;
+  min-width: 300px;      /* evita ficar muito pequeno em telas médias */
+}
+
+.jornada-louco .etapa img.miniatura {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.jornada-louco .etapa .texto-etapa {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.jornada-louco .etapa p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* ===== RESPONSIVO: coluna no celular ===== */
+@media (max-width: 768px) {
+  .jornada-louco {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .jornada-louco .etapa {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .jornada-louco .etapa img.miniatura {
+    width: 40%;
+    max-width: 250px;
+  }
+}
+
+
+/* ===== HEADER E MAIN RESPONSIVOS ===== */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px;
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  p.lead {
+    font-size: 12px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 0 12px 40px;
+  }
+}
+
+/* ===== FOOTER ===== */
+footer {
+  padding: 18px 24px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* ===== IMPRESSÃO ===== */
+@media print {
+  header,
+  footer,
+  button,
+  input,
+  .controls {
+    display: none;
+  }
+
+  .card {
+    break-inside: avoid;
+  }
+}
