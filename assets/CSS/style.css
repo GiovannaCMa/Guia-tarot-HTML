@@ -195,3 +195,107 @@ main.home section img:hover,
   background: #e2be67;
   transform: scale(1.05);
 }
+
+
+/* RESPONSIVO PARA CELULARES */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* empilha brand e menu */
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px;
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: row; /* mantém logo e textos lado a lado */
+    align-items: center;
+    gap: 12px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  p.lead {
+    font-size: 12px;
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 0 12px 40px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 0 12px 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin-top: 14px;
+  }
+
+  p, li {
+    font-size: 14px;
+  }
+
+  blockquote {
+    padding: 12px 16px;
+    margin: 24px 0;
+    font-size: 14px;
+  }
+
+  main.home > img,
+  .intro-tarot img,
+  .leitura-tarot img,
+  .tarot-item img,
+  .primeira-tiragem img,
+  .pratique-tarot img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .tipos-lista {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .tarot-item {
+    padding: 16px;
+  }
+
+  .tarot-item img {
+    height: 150px;
+    margin-bottom: 12px;
+  }
+
+  .escolha-arcano {
+    font-size: 16px;
+    margin: 30px 0;
+  }
+
+  .menu-arcano button {
+    padding: 8px 16px;
+    margin: 5px 5px;
+  }
+}
