@@ -257,13 +257,13 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-louco.jpg",
     keywords: ["Abismo", "trouxa", "rosa", "cão"],
     upright: `
-    <p><strong>O Abismo/Precipício:</strong> Abismo, trouxa, rosa, cão O desconhecido, o salto de fé, 
-    o perigo (ou oportunidade) que o Louco não está vendo porque está olhando para cima.</p>
-    <p><strong>A Trouxa na Varinha:</strong> Contém todas as experiências das vidas passadas 
-    ou o mínimo essencial (o que ele realmente precisa, não o que ele pensa que precisa).</p>
-    <p><strong>A Rosa Branca:</strong> Inocência, pureza de intenção.</p>
-    <p><strong>O Cão Branco:</strong> O instinto, o subconsciente, ou um amigo fiel que está 
-    latindo avisando do perigo (a voz da prudência que ele ignora).</p>`,
+      <p><strong>O Abismo/Precipício:</strong> O desconhecido, o salto de fé, o perigo 
+      (ou oportunidade) que o Louco não está vendo porque está olhando para cima.</p>
+      <p><strong>A Trouxa na Varinha:</strong> Contém todas as experiências das vidas 
+      passadas ou o mínimo essencial (o que ele realmente precisa, não o que ele pensa que precisa).</p>
+      <p><strong>A Rosa Branca:</strong> Inocência, pureza de intenção.</p>
+      <p><strong>O Cão Branco:</strong> O instinto, o subconsciente, ou um amigo 
+      fiel que está latindo avisando do perigo (a voz da prudência que ele ignora).</p>`,
   },
   {
     num: "I",
@@ -271,10 +271,13 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-mago.jpg",
     keywords: ["Mesa", "uróboros", "mãos"],
     upright: `
-    <p><strong>Mesa com os Quatro Naipes (elementos):</strong> Taça, Espada, Moeda e Bastão. Representam os quatro 
-    elementos (Água, Ar, Terra e Fogo) e os quatro aspectos da manifestação (Emoção, Mente, Matéria e Vontade).</p>
-    <p><strong>O Uróboros (Cinto):</strong> A serpente que morde o próprio rabo, simbolizando o ciclo de auto-criação e a eternidade.<p>
-    <p><strong>Mão Apontando:</strong> Uma para o céu (ideia/potencial), outra para a terra (manifestação/ação).`,
+      <p><strong>Mesa com os Quatro Naipes (elementos):</strong> Taça, Espada, Moeda e Bastão. 
+      Representam os quatro elementos (Água, Ar, Terra e Fogo) e os quatro aspectos da manifestação 
+      (Emoção, Mente, Matéria e Vontade).</p>
+      <p><strong>O Uróboros (Cinto):</strong> A serpente que morde o próprio rabo, simbolizando o 
+      ciclo de auto-criação e a eternidade.</p>
+      <p><strong>Mão Apontando:</strong> Uma para o céu (ideia/potencial), outra para a terra 
+      (manifestação/ação).</p>`,
   },
   {
     num: "II",
@@ -282,19 +285,21 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-sacerdotisa.jpg",
     keywords: ["Véu", "pilares", "pergaminho"],
     upright: `
-    <p><strong>O Véu:</strong> O limiar entre o consciente e o inconsciente, o visível e o oculto.<p>
-    <p><strong>Pilares B e J (Boaz e Jachin):</strong> Os opostos complementares (luz/sombra, masculino/feminino) que devem ser equilibrados.<p>
-    <p><strong>Pergaminho (Tora):</strong> O conhecimento esotérico, a sabedoria que é acessível, mas que exige silêncio para ser lida.`,
+      <p><strong>O Véu:</strong> O limiar entre o consciente e o inconsciente, o visível e o oculto.</p>
+      <p><strong>Pilares B e J (Boaz e Jachin):</strong> Os opostos complementares (luz/sombra, masculino
+      /feminino) que devem ser equilibrados.</p>
+      <p><strong>Pergaminho (Tora):</strong> O conhecimento esotérico, a sabedoria que é acessível, mas 
+      que exige silêncio para ser lida.</p>`,
   },
   {
     num: "III",
-    name: "A imperatriz",
+    name: "A Imperatriz",
     img: "https://www.astrolink.com.br/data/tarot/a-imperatriz.jpg",
     keywords: ["Coroa", "campo", "escudo"],
     upright: `
-    <p><strong>Coroa de Estrelas:</strong> A conexão com o divino e o cosmos.</p>
-    <p><strong>Campo de Trigo e Água:</strong> Fartura, Abundância material e emocional.</p>
-    <p><strong>Escudo com o Símbolo de Vênus:</strong> Amor, beleza e criatividade. O trono de almofadas é puro conforto.</p>`,
+      <p><strong>Coroa de Estrelas:</strong> A conexão com o divino e o cosmos.</p>
+      <p><strong>Campo de Trigo e Água:</strong> Fartura, abundância material e emocional.</p>
+      <p><strong>Escudo com o Símbolo de Vênus:</strong> Amor, beleza e criatividade. O trono de almofadas é puro conforto.</p>`,
   },
   {
     num: "IV",
@@ -302,9 +307,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-imperador.jpg",
     keywords: ["Armadura", "orbe e o cetro", "montanhas"],
     upright: `
-    <p><strong>Armadura de Ferro:</strong> Rigidez, ordem, a necessidade de proteção e controle.</p>
-    <p><strong>O Orbe e o Cetro:</strong> Símbolos de poder e Domínio sobre o reino.<p>
-    <p><strong>Montanhas Áridas:</strong> O foco na estrutura em detrimento da emoção (o terreno sólido, mas inóspito).`,
+      <p><strong>Armadura de Ferro:</strong> Rigidez, ordem, a necessidade de proteção e controle.</p>
+      <p><strong>O Orbe e o Cetro:</strong> Símbolos de poder e domínio sobre o reino.</p>
+      <p><strong>Montanhas Áridas:</strong> O foco na estrutura em detrimento da emoção (o terreno sólido, mas inóspito).</p>`,
   },
   {
     num: "V",
@@ -312,9 +317,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-papa.jpg",
     keywords: ["Tiaras", "discípulos", "chaves"],
     upright: `
-    <p><strong>Três Tiaras (Tríplice Coroa):</strong> Rigidez, ordem, a necessidade de proteção e controle.<p>
-    <p><strong>Os Discípulos Ajoelhados:</strong> Símbolos de poder e Domínio sobre o reino.<p>
-    <p><strong>Chaves Cruzadas:</strong> O foco na estrutura em detrimento da emoção (o terreno sólido, mas inóspito).`,
+      <p><strong>Três Tiaras (Tríplice Coroa):</strong> Rigidez, ordem, a necessidade de proteção e controle.</p>
+      <p><strong>Os Discípulos Ajoelhados:</strong> Símbolos de poder e domínio sobre o reino.</p>
+      <p><strong>Chaves Cruzadas:</strong> O foco na estrutura em detrimento da emoção (o terreno sólido, mas inóspito).</p>`,
   },
   {
     num: "VI",
@@ -322,9 +327,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/os-enamorados.jpg",
     keywords: ["Anjo", "pessoas", "árvores"],
     upright: `
-    <p><strong>Anjo:</strong> A voz da consciência, o Chamado superior que guia a escolha.</p>
-    <p><strong>Duas Pessoas (homem e mulher):</strong> O dilema, a união de opostos e a Dualidade da vida.</p>
-    <p><strong>Árvores:</strong> A Árvore do Conhecimento do Bem e do Mal e a Árvore da Vida, simbolizando as opções morais e o potencial.</p>`,
+      <p><strong>Anjo:</strong> A voz da consciência, o chamado superior que guia a escolha.</p>
+      <p><strong>Duas Pessoas (homem e mulher):</strong> O dilema, a união de opostos e a dualidade da vida.</p>
+      <p><strong>Árvores:</strong> A Árvore do Conhecimento do Bem e do Mal e a Árvore da Vida, simbolizando as opções morais e o potencial.</p>`,
   },
   {
     num: "VII",
@@ -332,9 +337,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-carro.jpg",
     keywords: ["Pilares", "dossel", "tetragrama"],
     upright: `
-    <p><strong>Dois Pilares/Esfinges:</strong> Novamente os opostos, mas aqui, controlados pelo condutor. Preto e branco, ação e reação.</p>
-    <p><strong>Dossel Estrelado:</strong> O Carro está sob a proteção das leis universais, mas o condutor precisa de Foco.<p>
-    <p><strong>Símbolo Alquímico (Tetragrama):</strong> Vitória e Determinação pessoal.`,
+      <p><strong>Dois Pilares/Esfinges:</strong> Novamente os opostos, mas aqui, controlados pelo condutor. Preto e branco, ação e reação.</p>
+      <p><strong>Dossel Estrelado:</strong> O Carro está sob a proteção das leis universais, mas o condutor precisa de foco.</p>
+      <p><strong>Símbolo Alquímico (Tetragrama):</strong> Vitória e determinação pessoal.</p>`,
   },
   {
     num: "VIII",
@@ -342,21 +347,20 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-forca.jpg",
     keywords: ["Mulher e leão", "infinito", "flores"],
     upright: `
-    <p><strong>A Mulher e o Leão:</strong> A coragem calma que domina os instintos com gentileza.<p>
-    <p><strong>O Infinito sobre a cabeça:</strong> O domínio espiritual sobre o impulso físico.<p>
-    <p><strong>As Flores:</strong> A doçura e a harmonia interior.`,
+      <p><strong>A Mulher e o Leão:</strong> A coragem calma que domina os instintos com gentileza.</p>
+      <p><strong>O Infinito sobre a cabeça:</strong> O domínio espiritual sobre o impulso físico.</p>
+      <p><strong>As Flores:</strong> A doçura e a harmonia interior.</p>`,
   },
   {
     num: "IX",
     name: "O Eremita",
     img: "https://www.astrolink.com.br/data/tarot/o-eremita.jpg",
-    keywords: ["Lanterna", "cajado", "escudo"],
+    keywords: ["Lanterna", "cajado", "montanha"],
     upright: `
-    <p><strong>A Lanterna (Luz Oculta):</strong> A sabedoria interior. Ele só 
-    ilumina o próximo passo, não o caminho todo, exigindo Confiança.</p>
-    <p><strong>O Cajado:</strong> O apoio para o caminho e o guia da vontade.</p>
-    <p><strong>O Topo da Montanha:</strong> O distanciamento do mundo, a Solidão 
-    necessária para a busca.mor, beleza e criatividade. O trono de almofadas é puro confortoO distanciamento do mundo, a Solidão necessária para a busca.</p>`,
+      <p><strong>A Lanterna (Luz Oculta):</strong> A sabedoria interior. Ele só ilumina o próximo passo, 
+      não o caminho todo, exigindo confiança.</p>
+      <p><strong>O Cajado:</strong> O apoio para o caminho e o guia da vontade.</p>
+      <p><strong>O Topo da Montanha:</strong> O distanciamento do mundo, a solidão necessária para a busca.</p>`,
   },
   {
     num: "X",
@@ -364,9 +368,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-roda-da-fortuna.jpg",
     keywords: ["Animais", "Hebraicos e Alquímicos", "montanhas"],
     upright: `
-    <p><strong>Figuras Animais (Esfinge, Tifão):</strong> Os ciclos da vida (subida, descida e estagnação).</p>
-    <p><strong>Hebraicos e Alquímicos (T-A-R-O/R-O-T-A):</strong> O poder de Deus/destino em ação..<p>
-    <p><strong>Montanhas Áridas:</strong> A Impermanência e os ciclos kármicos.`,
+      <p><strong>Figuras Animais (Esfinge, Tifão):</strong> Os ciclos da vida (subida, descida e estagnação).</p>
+      <p><strong>Hebraicos e Alquímicos (T-A-R-O/R-O-T-A):</strong> O poder de Deus/destino em ação.</p>
+      <p><strong>Montanhas Áridas:</strong> A impermanência e os ciclos kármicos.</p>`,
   },
   {
     num: "XI",
@@ -374,19 +378,19 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-justica.jpg",
     keywords: ["Espada", "balança", "manto"],
     upright: `
-    <p><strong>Espada Erguida:</strong> O poder de discernir, de cortar as ilusões e de tomar decisões Justas.<p>
-    <p><strong>A Balança:</strong> O Equilíbrio e a imparcialidade das ações.<p>
-    <p><strong>O Manto Vermelho (Paixão):</strong>  O uso da mente e da verdade acima das paixões.`,
+      <p><strong>Espada Erguida:</strong> O poder de discernir, de cortar as ilusões e de tomar decisões justas.</p>
+      <p><strong>A Balança:</strong> O equilíbrio e a imparcialidade das ações.</p>
+      <p><strong>O Manto Vermelho (Paixão):</strong> O uso da mente e da verdade acima das paixões.</p>`,
   },
   {
     num: "XII",
     name: "O Enforcado",
     img: "https://www.astrolink.com.br/data/tarot/o-enforcado.jpg",
-    keywords: ["Posição", "arvore", "auréola"],
+    keywords: ["Posição", "árvore", "auréola"],
     upright: `
-    <p><strong>A Posição Invertida:</strong> Uma Nova Perspectiva e a inversão de valores mundanos.</p>
-    <p><strong>A Árvore (Cruz):</strong> O sacrifício, a suspensão da ação.<p>
-    <p><strong>A Auréola:</strong> Apesar da posição desconfortável, há Consciência e iluminação espiritual.`,
+      <p><strong>A Posição Invertida:</strong> Uma nova perspectiva e a inversão de valores mundanos.</p>
+      <p><strong>A Árvore (Cruz):</strong> O sacrifício, a suspensão da ação.</p>
+      <p><strong>A Auréola:</strong> Apesar da posição desconfortável, há consciência e iluminação espiritual.</p>`,
   },
   {
     num: "XIII",
@@ -394,9 +398,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-morte.jpg",
     keywords: ["Esqueleto", "cores", "bandeira"],
     upright: `
-    <p><strong>O Esqueleto com a Foice:</strong> O fim da forma, a Colheita do que não serve mais.</p>
-    <p><strong>Cores (Preto e Branco):</strong> A certeza de que o fim e o começo são um só.</p>
-    <p><strong>A Bandeira com a Rosa: </strong> Promessa de vida eterna/novo ciclo após a Transformação.</p>`,
+      <p><strong>O Esqueleto com a Foice:</strong> O fim da forma, a colheita do que não serve mais.</p>
+      <p><strong>Cores (Preto e Branco):</strong> A certeza de que o fim e o começo são um só.</p>
+      <p><strong>A Bandeira com a Rosa:</strong> Promessa de vida eterna/novo ciclo após a transformação.</p>`,
   },
   {
     num: "XIV",
@@ -404,9 +408,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-temperanca.jpg",
     keywords: ["Anjos", "pés", "jarras"],
     upright: `
-    <p><strong>Anjo com Asas:</strong> Novamente os opostos, mas aqui, controlados pelo condutor. Preto e branco, ação e reação.</p>
-    <p><strong>Pés na Água e na Terra:</strong> O Carro está sob a proteção das leis universais, mas o condutor precisa de Foco.<p>
-    <p><strong>Jarras:</strong> Vitória e Determinação pessoal.`,
+      <p><strong>Anjo com Asas:</strong> União dos opostos, controlados com equilíbrio. Preto e branco, ação e reação.</p>
+      <p><strong>Pés na Água e na Terra:</strong> Harmonia entre emoção e realidade, equilíbrio nas ações.</p>
+      <p><strong>Jarras:</strong> Vitória, fluidez e determinação pessoal.</p>`,
   },
   {
     num: "XV",
@@ -414,10 +418,8 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-diabo.jpg",
     keywords: ["Corrente", "Figuras Nuas"],
     upright: `
-    <p><strong>A Corrente Frouxa:</strong> As Correntes são autoimpostas. 
-    Louco é livre para tirá-las a qualquer momento.<p>
-    <p><strong>Figuras Nuas (Com e sem Chifres):</strong> Representam os 
-    instintos sexuais, o vício e a Dependência da matéria (o dinheiro, o poder).<p>`,
+      <p><strong>A Corrente Frouxa:</strong> As correntes são autoimpostas. O indivíduo é livre para tirá-las a qualquer momento.</p>
+      <p><strong>Figuras Nuas (Com e sem Chifres):</strong> Representam instintos, vícios e dependência da matéria (dinheiro, poder).</p>`,
   },
   {
     num: "XVI",
@@ -425,9 +427,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-torre.jpg",
     keywords: ["Raio", "caindo", "coroa"],
     upright: `
-    <p><strong>O Raio:</strong> Um relâmpago de Verdade ou insight súbito que destrói as falsas estruturas.</p>
-    <p><strong>As Figuras Caindo:</strong> O colapso do ego e das crenças rígidas.</p>
-    <p><strong>A Coroa Cuspida:</strong> A queda da arrogância e do controle ilusório.</p>`,
+      <p><strong>O Raio:</strong> Um relâmpago de verdade ou insight súbito que destrói falsas estruturas.</p>
+      <p><strong>As Figuras Caindo:</strong> Colapso do ego e das crenças rígidas.</p>
+      <p><strong>A Coroa Cuspida:</strong> Queda da arrogância e do controle ilusório.</p>`,
   },
   {
     num: "XVII",
@@ -435,9 +437,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-estrela.jpg",
     keywords: ["Mulher", "estrelas", "água"],
     upright: `
-    <p><strong>Mulher Nua (Pureza):</strong> A Vulnerabilidade e a essência verdadeira.</p>
-    <p><strong>Sete Estrelas Pequenas e Uma Grande:</strong> A esperança guiada pelo propósito maior e a conexão com o Cosmos.<p>
-    <p><strong>Água Sendo Derrubada:</strong> A cura e a Nutrição da vida e do inconsciente.`,
+      <p><strong>Mulher Nua (Pureza):</strong> Vulnerabilidade e essência verdadeira.</p>
+      <p><strong>Sete Estrelas Pequenas e Uma Grande:</strong> Esperança guiada pelo propósito maior e conexão com o cosmos.</p>
+      <p><strong>Água Sendo Derrubada:</strong> Cura e nutrição da vida e do inconsciente.</p>`,
   },
   {
     num: "XVIII",
@@ -445,9 +447,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/a-lua.jpg",
     keywords: ["Caminho", "cães", "luar"],
     upright: `
-    <p><strong>O Caminho que Leva ao Desconhecido:</strong> O caminho da Intuição e do inconsciente, cheio de incertezas.<p>
-    <p><strong>Cães Uivando e Lagosta:</strong> Os medos subconscientes e a necessidade de dominar os instintos inferiores.<p>
-    <p><strong>O Luar:</strong> A luz refletida, Ilusão e o mistério que precisa ser desvendado.`,
+      <p><strong>O Caminho que Leva ao Desconhecido:</strong> Intuição e inconsciente, cheio de incertezas.</p>
+      <p><strong>Cães Uivando e Lagosta:</strong> Medos subconscientes e necessidade de dominar instintos inferiores.</p>
+      <p><strong>O Luar:</strong> Luz refletida, ilusão e mistério a ser desvendado.</p>`,
   },
   {
     num: "XIX",
@@ -455,19 +457,19 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-sol.jpg",
     keywords: ["Criança", "muro", "girassóis"],
     upright: `
-    <p><strong>A Criança Nua (Pureza):</strong> A Inocência e a alegria restauradas.</p>
-    <p><strong>O Muro:</strong> O limite da jornada, a forma que o espírito assume.</p>
-    <p><strong>Girassóis:</strong> O limite da jornada, a forma que o espírito assume.</p>`,
+      <p><strong>A Criança Nua (Pureza):</strong> Inocência e alegria restauradas.</p>
+      <p><strong>O Muro:</strong> Limite da jornada, a forma que o espírito assume.</p>
+      <p><strong>Girassóis:</strong> Símbolo de vitalidade e luz, energia positiva.</p>`,
   },
   {
     num: "XX",
     name: "O Julgamento",
     img: "https://www.astrolink.com.br/data/tarot/o-julgamento.jpg",
-    keywords: ["Mulher", "estrelas", "água"],
+    keywords: ["Anjo", "trombeta", "ressurreição"],
     upright: `
-    <p><strong>O Anjo Tocando a Trombeta:</strong> O Chamado para o despertar da consciência.</p>
-    <p><strong>As Figuras Levantando dos Túmulos:</strong> O Renascimento espiritual, a ressurreição da alma.<p>
-    <p><strongMontanhas Azuis:</strong> A superação dos desafios (montanhas) e a Consciência Elevada.`,
+      <p><strong>O Anjo Tocando a Trombeta:</strong> Chamado para despertar da consciência.</p>
+      <p><strong>As Figuras Levantando dos Túmulos:</strong> Renascimento espiritual e ressurreição da alma.</p>
+      <p><strong>Montanhas Azuis:</strong> Superação dos desafios e consciência elevada.</p>`,
   },
   {
     num: "XXI",
@@ -475,9 +477,9 @@ const simbologia = [
     img: "https://www.astrolink.com.br/data/tarot/o-mundo.jpg",
     keywords: ["Guirlanda", "figuras", "montanhas"],
     upright: `
-    <p><strong>A Guirlanda (Coroa):</strong> O Sucesso e a Totalidade.<p>
-    <p><strong>As Figuras Levantando dos Túmulos:</strong> Os quatro elementos (Mago), os evangelistas e a estabilidade universal.<p>
-    <p><strong>Montanhas Azuis:</strong> A superação dos desafios (montanhas) e a Consciência Elevada.`,
+      <p><strong>A Guirlanda (Coroa):</strong> Sucesso e totalidade.</p>
+      <p><strong>As Figuras:</strong> Representam os quatro elementos, os evangelistas e a estabilidade universal.</p>
+      <p><strong>Montanhas Azuis:</strong> Superação dos desafios e consciência elevada.</p>`,
   },
 ];
 

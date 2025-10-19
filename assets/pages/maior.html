@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../CSS/maior.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/arcanos.css" />
     <title>Arcanos Maiores — Guia do Tarot</title>
   </head>
   <body>
@@ -15,13 +15,13 @@
         <div>
           <h1>Guia de Tarot — Arcanos Maiores</h1>
           <div class="divider"></div>
-          <p class="lead">Significados, simbologias e a jornada do Louco.</p>
+          <p class="lead">Simbologias, significados e a jornada do Louco.</p>
         </div>
       </div>
 
       <nav class="menu">
         <a href="../../index.html"><button>Início</button></a>
-        <a href="#"><button>Arcanos Menores</button></a>
+        <a href="./menor.html"><button>Arcanos Menores</button></a>
       </nav>
     </header>
 
@@ -57,15 +57,12 @@
         </p>
       </section>
       <br />
-       <footer>
-        🔮 Dica: clique em uma carta para ler detalhes.
+      <footer>🔮 Dica: clique em uma carta para ler detalhes.</footer>
+
       <section>
         <h2>Simbologias dos Arcanos Maiores</h2>
         <div id="cards-s" class="grid-s"></div>
       </section>
-
-     
-      <!-- Modal -->
       <div class="modal-backdrop" id="backdrop-s">
         <div class="modal" role="dialog" aria-modal="true">
           <div class="grid">
@@ -84,7 +81,6 @@
                 <strong>Simbologias:</strong>
                 <p id="modalUpright-s" class="muted"></p>
               </div>
-
               <div class="modal-buttons">
                 <button class="toggle" id="btnClose-s">Fechar</button>
               </div>
@@ -143,12 +139,12 @@
           </div>
         </div>
       </div>
+
       <br />
 
       <section>
         <h2>A Jornada do Louco</h2>
       </section>
-
       <section class="jornada-louco">
         <div class="etapa">
           <img
@@ -532,6 +528,20 @@
               desconhecido.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section class="escolha-arcano">
+        <p>
+          Agora que você já conhece os <strong>Arcanos Maiores</strong>, deseja
+          explorar os <strong>Arcanos Menores</strong> ou voltar para o
+          <strong>início</strong>?
+        </p>
+        <div class="menu-arcano">
+          <nav>
+            <a href="./menor.html"><button>Arcanos Menores</button></a>
+            <a href="../../index.html"><button>Início</button></a>
+          </nav>
         </div>
       </section>
     </main>
