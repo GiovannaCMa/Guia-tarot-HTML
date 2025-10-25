@@ -12,7 +12,8 @@ Este projeto é um **Guia de Tarot** focado em iniciantes, oferecendo uma introd
 
 O guia explora o que é o Tarot, seu funcionamento simbólico, os principais tipos de baralhos (Marselha, Rider-Waite, Thoth) e um passo a passo para a primeira tiragem ("Passado, Presente e Futuro").
 
-Este projeto foi construído primariamente com **HTML e CSS** para ser um recurso de leitura e estudo, com foco na acessibilidade do conteúdo.
+🔗 **Acesse o site:**  
+👉 [https://guiadetarot.netlify.app/](https://guiadetarot.netlify.app/)
 
 ---
 
