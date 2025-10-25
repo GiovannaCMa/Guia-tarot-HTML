@@ -450,6 +450,44 @@ p, li {
   }
 }
 
+/* === ÁREAS DA VIDA - VISUAL APRIMORADO === */
+
+#areas-vida {
+  display: flex;
+  flex-direction:column;
+}
+
+.carta {
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.carta h2 {
+  font-size: 22px;
+  border-bottom: none; /* remove a linha */
+  padding-bottom: 0;   /* remove o espaço extra se quiser */
+  margin: 0 0 12px 0;
+  color: var(--muted);
+  font-size: 20px;
+}
+
+.carta ul {
+  list-style: disc inside;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.carta li {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.carta .conselhos {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 15px;
+}
 
 /*JORNADA DO LOUCO FLUIDA*/
 .jornada-louco {
